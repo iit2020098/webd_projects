@@ -1,0 +1,41 @@
+#container{
+    width: 40vw;
+    height: 40vw;
+    margin: 0px auto;
+    background: url("/clock.jpg") no-repeat;
+    background-color: black;
+    background-size:100%;
+    /* border: 1px solid black; */
+
+}
+#hh, #mh,  #sh{
+    position: relative;
+    border-radius: 10px;
+    transform-origin: bottom;
+}
+#hh{
+    width: 1%;
+    height: 25%;
+    top: 26%;
+    left: 49%;
+    background-color: gold;
+   
+
+}
+#mh{
+    width: 1.5%;
+    height: 30%;
+    top: -3.5%;
+    left: 48.7%;
+    /* background-color: black; */
+    background-color: black;
+  
+}
+#sh{
+    background-color: red;
+    width: 2%;
+    height: 37%;
+    top: -40.8%;
+    left: 48.5%;
+    
+}
